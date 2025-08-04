@@ -11,13 +11,6 @@ This repository utilizes **Foundry**, a powerful Ethereum development toolkit wr
 -   **Secure and Controlled Minting**: Only the contract owner can mint certificates.
 -   **Testing with Foundry**: Comprehensive unit tests ensure smart contract reliability.
 
-## Technologies Used
-
--   [Foundry](https://book.getfoundry.sh/)
--   Solidity (v0.8.13)
--   OpenZeppelin Contracts
--   IPFS for NFT metadata storage
-
 ## Project Structure
 
 ```
