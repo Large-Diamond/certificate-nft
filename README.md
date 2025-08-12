@@ -5,6 +5,7 @@
 This repository utilizes **Foundry**, a powerful Ethereum development toolkit written in Rust, to develop and deploy an **NFT Certificate** smart contract. The NFT serves as a certificate of completion for a course, demonstrating a student's achievement.
 
 ## Features
+
 -   **ERC-721 NFT Certificate**: Implements a non-transferable NFT certificate using OpenZeppelin.
 -   **Dynamic Metadata**: NFT metadata is dynamically generated and stored in IPFS.
 -   **Secure and Controlled Minting**: Only the contract owner can mint certificates.
@@ -28,6 +29,21 @@ This repository utilizes **Foundry**, a powerful Ethereum development toolkit wr
 ├── metadata.json                  # Sample metadata for NFT
 ├── README.md                      # Project documentation
 ```
+
+## Installation & Setup
+
+### Prerequisites
+
+Ensure you have Foundry installed:
+
+```shell
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
+
+### Install Dependencies
+
+```shell
 git submodule update --init --recursive
 ```
 
